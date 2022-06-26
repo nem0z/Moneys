@@ -1,6 +1,6 @@
 import Client from "./modules/CBPro-API/Client.js";
 import { calculateCPU } from './modules/Moneys-stats/calc-cpu.js';
-import keys from './config/keys.js';
+import keys from './keys.js';
 
 const client = new Client(keys.API_KEY, keys.API_SECRET, keys.PASSPHRASE);
 let accounts = await client.getAccounts(true);

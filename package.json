@@ -1,0 +1,32 @@
+{
+  "name": "moneys",
+  "version": "1.0.0",
+  "description": "A desktop app to manage your crypto investments",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nem0z/Moneys.git"
+  },
+  "keywords": [
+    "crypto",
+    "electron",
+    "node",
+    "js",
+    "investments",
+    "moneys"
+  ],
+  "author": "nem0z",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nem0z/Moneys/issues"
+  },
+  "homepage": "https://github.com/nem0z/Moneys#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  }
+}
